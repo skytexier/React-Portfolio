@@ -6,6 +6,8 @@ const Navigation = () => {
     
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
+
+    use
     
     return (
         <Navbar expanded="md" className={scrolled ? "scrolled" : ""}>
