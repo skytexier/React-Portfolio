@@ -1,11 +1,12 @@
 import React from 'react';
+import { AiFillGithub } from 'react-bootstrap-icons'
 
 function Footer() {
 
   // Replace links with social media profiles
   const icons = [
     {
-      name: "fab fa-github",
+      img: "fab fa-github",
       link: "https://github.com/"
     },
     {

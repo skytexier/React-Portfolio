@@ -5,6 +5,9 @@ function About() {
     return (
       <section className="banner" id="home">
         <Container>
+          <div className='profile-img m-5'>
+            
+          </div>
           <Row className='align-items-center'>
             <Col xs={12} md={6} lg={4}>
               <span className='intro'>Welcome to my portfolio!</span>

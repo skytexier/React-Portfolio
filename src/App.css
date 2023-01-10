@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #003049 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -71,14 +71,15 @@ p.danger {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 25px 0;
   position: relative;
-  background-color: black;
+  background-color: #003049;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  margin: 10px;
 }
 .project p {
   color: #B8B8B8;
@@ -304,6 +305,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
+}
+
+footer {
+  font-size: 48px;
+  justify-content: center;
+}
+
+footer a {
+  color: var(--light);
+  opacity: .5;
+  margin: 10px 20px;
+  transition: all .3s ease-in-out;
+}
+
+footer a:hover {
+  opacity: 1;
 }
 
 
