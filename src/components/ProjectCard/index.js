@@ -1,6 +1,6 @@
 import { Col } from 'react-bootstrap';
 
- const ProjectCard = ({ title, description, imgURL }) => {
+ const ProjectCard = ({ title, description, imgURL, URL }) => {
     return (
         <Col size={12} sm={6} md={4}>
             <div className='project-image'>

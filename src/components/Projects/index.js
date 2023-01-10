@@ -8,12 +8,14 @@ const Projects = () => {
         {
             title: "Fantasy Football Calculator",
             description: "An easy to navigate website for calculating weekly Fantasy Football scores and checking in on NFL news",
-            imgURL: projectImg1
+            imgURL: projectImg1,
+            URL:"https://brackym.github.io/UCBCS_FFCalculator/"
         },
         {
             title: "The Safe Space",
             description: "A Twitter/Reddit-esque social media website",
-            imgURL: projectImg2
+            imgURL: projectImg2,
+            URL: "https://the-safer-space.herokuapp.com/"
         },
     ];
 
@@ -23,14 +25,6 @@ const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <Tab.Container id="project-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center">
-                                <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                                </Nav.Item>
-                            </Nav>
-                            <Tab.Content>
-                                <Tab.Pane eventKey="first">
                                     <Row>
                                         {
                                             projects.map((project, index) => {
@@ -43,9 +37,6 @@ const Projects = () => {
                                             })
                                         }
                                     </Row>
-                                </Tab.Pane>
-                            </Tab.Content>
-                        </Tab.Container>
                     </Col>
                 </Row>
             </Container>
