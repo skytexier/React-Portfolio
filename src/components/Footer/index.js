@@ -1,29 +1,26 @@
 import React from 'react';
-import { AiFillGithub } from 'react-bootstrap-icons'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
 
   // Replace links with social media profiles
   const icons = [
     {
-      img: "fab fa-github",
+      name: <FaGithub />,
       link: "https://github.com/"
     },
     {
-      name: "fab fa-linkedin",
+      name: <FaLinkedin />,
       link: "https://www.linkedin.com/"
     },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
-    }
   ]
 
   return (
     <footer className="flex-row px-1">
+      <h4>Test</h4>
       {icons.map(icon =>
       (
-        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
+        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer">{icon.name}</a>
       )
         )}
     </footer>

@@ -1,3 +1,4 @@
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -14,7 +15,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #003049 !important;
+  background-color: #a63fe286 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -38,7 +39,8 @@ a:hover {
 
 img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
 button {
@@ -73,7 +75,77 @@ p.danger {
   justify-content: center;
 }
 
-/************ Projects Css ************/
+/************ Banner CSS ************/
+.banner {
+  margin-top: 0;
+  padding: 100px 0 100px 0;
+  background-image: url('./assets/background.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-clip: border-box;
+  background-attachment: fixed;
+  background-position:inherit;
+
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+.banner .headshot {
+  width: 250px;
+  max-height: 25rem;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin: 50px;
+  object-fit: cover;
+  background: linear-gradient(var(--rotate), rgb(96, 144, 248) -5.91%, rgb(255, 97, 221) 111.58%);
+  padding: 10px;
+  background-size: 100%;
+  animation: spin 5s ease infinite;
+}
+
+
+
+
+
+
+.banner .welcome {
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(96, 144, 248, 0.5) -5.91%, rgba(255, 97, 221, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin-bottom: 16px;
+  display: inline-block;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: #ffffff
+}
+
+/************ Projects CSS ************/
 .project {
   padding: 25px 0;
   position: relative;
@@ -105,6 +177,7 @@ p.danger {
   text-align: center;
   width: 55%;
 }
+
 
 .project-image {
   position: relative;
