@@ -69,12 +69,17 @@ p.danger {
   text-align: center;
 }
 
+.row {
+  justify-content: center;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 25px 0;
   position: relative;
   background-color: #003049;
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -102,11 +107,10 @@ p.danger {
 }
 
 .project-image {
-  width: 50%;
   position: relative;
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 .project-image::before {
   content: "";
