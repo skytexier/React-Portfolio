@@ -1,6 +1,7 @@
 import  Col  from 'react-bootstrap/Col';
+import {FaGithub, FaLink } from  "react-icons/fa"
 
- const ProjectCard = ({ title, description, imgURL, URL }) => {
+ const ProjectCard = ({ title, description, imgURL, URL, Github }) => {
     return (
         <Col size={12} sm={6} md={4}>
             <div className='project-image'>
@@ -8,6 +9,9 @@ import  Col  from 'react-bootstrap/Col';
                 <div className='projectDesc'>
                     <h4>{title}</h4>
                     <span>{description}</span>
+                    <br></br>
+                    {Github && URL ? <><a href={Github} key={imgURL} target="_blank" rel="noopener noreferrer"><FaGithub /></a><a href={URL} key={imgURL} target="_blank" rel="noopener noreferrer"><FaLink /></a></>
+                    : <a href={Github} key={imgURL} target="_blank" rel="noopener noreferrer"><FaGithub /></a>}
                 </div>
             </div>
         </Col>

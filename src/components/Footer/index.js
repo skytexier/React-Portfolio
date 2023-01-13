@@ -7,17 +7,16 @@ function Footer() {
   const icons = [
     {
       name: <FaGithub />,
-      link: "https://github.com/"
+      link: "https://github.com/skytexier"
     },
     {
       name: <FaLinkedin />,
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/in/sky-t-ab805691/"
     },
   ]
 
   return (
-    <footer className="flex-row px-1">
-      <h4>Test</h4>
+    <footer className="flex-row px-1" id="footer">
       {icons.map(icon =>
       (
         <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer">{icon.name}</a>

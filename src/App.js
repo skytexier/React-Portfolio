@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import   Navigation   from './components/Nav/index';
-import   About   from './components/About/index';
 import  Footer  from './components/Footer/index';
 import  Projects  from './components/Projects/index';
-import Banner from './components/Banner/index'
+import Banner from './components/Banner/index';
+import Skills from "./components/Skills/index"
  
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Navigation />
       <main>
       <Banner/>
+      <Skills />
       <Projects />
       <Footer />
       </main>

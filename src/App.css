@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #a63fe286 !important;
+  background-color: #f8408d81 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -52,13 +52,6 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
-}
-
 p.success {
 	color: green;
 }
@@ -75,17 +68,16 @@ p.danger {
   justify-content: center;
 }
 
-/************ Banner CSS ************/
+/* Banner CSS */
 .banner {
   margin-top: 0;
   padding: 100px 0 100px 0;
   background-image: url('./assets/background.png');
   background-position: top center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat:space;
   background-clip: border-box;
-  background-attachment: fixed;
-  background-position:inherit;
+  background-attachment:scroll;
 
 }
 
@@ -118,11 +110,6 @@ p.danger {
   animation: spin 5s ease infinite;
 }
 
-
-
-
-
-
 .banner .welcome {
   font-weight: 700;
   letter-spacing: 1px;
@@ -145,21 +132,79 @@ p.danger {
   color: #ffffff
 }
 
-/************ Projects CSS ************/
+.banner p {
+  margin: 25px;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+/* Skills CSS */
+.skills {
+  padding: 15px;
+  position: relative;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills h2 {
+	font-size: 45px;
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 1.8px;
+}
+
+.skills h4 {
+  font-size: 25px;
+  color: #121212;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+  font-weight: 700;
+}
+
+.skill-box {
+  border-radius: 64px;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(var(--rotate), rgb(96, 144, 248) -5.91%, rgb(255, 97, 221) 111.58%);
+  animation: spin 15s ease infinite;
+}
+
+.carousel img {
+  width: fit-content;
+  height: 100px;
+  margin: 15px;
+}
+
+/* Projects CSS */
 .project {
   padding: 25px 0;
   position: relative;
-  background-color: #003049;
+}
+
+.project a {
+  font-size: 30px;
+  color:#121212;
+  opacity: .5;
+  margin: 10px 20px;
+  transition: all .3s ease-in-out;
+}
+
+.project a:hover {
+  opacity: 10;
+  color:#529dff;
 }
 
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
-  margin: 10px;
+  margin-bottom: 30px;
+  letter-spacing: 1.8px;
 }
 .project p {
-  color: #B8B8B8;
+  color: #b8b8b800;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -167,17 +212,6 @@ p.danger {
   text-align: center;
   width: 56%;
 }
-
-.project a {
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 55%;
-}
-
 
 .project-image {
   position: relative;
@@ -187,8 +221,8 @@ p.danger {
 }
 .project-image::before {
   content: "";
-  background: linear-gradient(90deg, #ff2a2a 5.91%, #fd941b 111.58%);
-  opacity: 0.85;
+  background: linear-gradient(90.21deg, rgba(96, 144, 248, 0.973) -5.91%, rgb(255, 97, 221) 111.58%);;
+  opacity: 0.95;
   position: absolute;
   width: 100%;
   height: 0;
@@ -235,7 +269,7 @@ p.danger {
   height: 40vmin;
   pointer-events: none;
 }
-
+/* Nav Bar */
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -245,8 +279,8 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
+  padding: 15px 0;
+  background-color: #12121269;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -263,141 +297,23 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
 }
-span.navbar-text {
-    display: flex;
-    align-items: center;
-}
-.social-icon {
-    display: inline-block;
-    margin-left: 14px;
-}
-.social-icon a {
-    width: 42px;
-    height: 42px;
-    background: rgba(217, 217, 217, 0.1);
-    display: inline-flex;
-    border-radius: 50%;
-    margin-right: 6px;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-}
-.social-icon a::before {
-    content: "";
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transform: scale(0);
-	transition: 0.3s ease-in-out;
-}
-.social-icon a:hover::before {
-    transform: scale(1);
-}
-.social-icon a img {
-	width: 40%;
-	z-index: 1;
-	transition: 0.3s ease-in-out;
-}
-.social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
-.navbar-text button {
-  font-weight: 700;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 18px 34px;
-  font-size: 18px;
-  margin-left: 18px;
-	position: relative;
-	background-color: transparent;
-	transition: 0.3s ease-in-out;
-}
-.navbar-text button span {
-  z-index: 1;
-}
-.navbar-text button::before {
-  content: "";
-  width: 0%;
-  height: 100%;
-  position: absolute;
-  background-color: #fff;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: 0.3s ease-in-out;
-}
-.navbar-text button:hover {
-  color: #121212;
-}
-.navbar-text button:hover::before {
-	content: "";
-	width: 100%;
-	height: 100%;
-	position: absolute;
-}
-nav.navbar .navbar-toggler:active,
-nav.navbar .navbar-toggler:focus {
-	outline: none;
-    box-shadow: none;
-}
-nav.navbar .navbar-toggler-icon {
-  width: 24px;
-  height: 17px;
-  background-image: none;
-  position: relative;
-  border-bottom: 2px solid #fff;
-  transition: all 300ms linear;
-  top: -2px;
-}
-nav.navbar .navbar-toggler-icon:focus {
-	border-bottom: 2px solid #fff;
-}
-nav.navbar .navbar-toggler-icon:after,
-nav.navbar .navbar-toggler-icon:before {
-	width: 24px;
-	position: absolute;
-	height: 2px;
-	background-color: #fff;
-	top: 0;
-	left: 0;
-	content: '';
-	z-index: 2;
-	transition: all 300ms linear;
-}
-nav.navbar .navbar-toggler-icon:after {
-	top: 8px;
-}
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-	transform: rotate(45deg);
-	background-color: #fff;
-	height: 2px;
-}
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
-	transform: translateY(8px) rotate(-45deg);
-	background-color: #fff;
-	height: 2px;
-}
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-	border-color: transparent;
-}
 
+/* Footer */
 footer {
   font-size: 48px;
   justify-content: center;
 }
 
 footer a {
-  color: var(--light);
+  color:#121212;
   opacity: .5;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
 }
 
 footer a:hover {
-  opacity: 1;
+  opacity: 10;
+  color: #ff4971;
 }
 
 
@@ -429,4 +345,18 @@ footer a:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+@media (max-width: 850px) {
+.projectDesc h4 {
+  font-size: 20px;
+}
+  
 }

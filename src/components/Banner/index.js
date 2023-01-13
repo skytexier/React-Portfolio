@@ -56,7 +56,8 @@ const Banner = () => {
                     <img className="headshot" src={headshot}></img>
                     <span className="welcome">Hello there, welcome to my portfolio!</span>
                     <h1>{`Sky is a `}<span className="txt-rotate" dataPeriod="500" data-rotate='["web developer", "project leader", "compassionate human"]'><span className="wrap">{text}</span></span></h1>
-                    <p>Hey there, my name is Sky Hamilton Texier and I'm a web developer based in Santa Barbara, California.</p>
+                    <p>Hey there, my name is Sky Hamilton Texier and I'm a web developer based in Santa Barbara, California. I'm an aspiring Full Stack developer with a background in Religious Studies, restaurant management and a lifelong passion for computers.
+</p>
                     </Col>
                 </Row>
             </Container>
