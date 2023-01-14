@@ -26,7 +26,7 @@ Oversaw and planned promotional events with local businesses and major instituti
             <h5>Associate of Science & Associate of Arts</h5>
             <h6>Santa Barbara City College | 2016-2019</h6>
             </Col>
-            <h4>Download my full resume <a href="https://www.linkedin.com/in/skytexier/">here!</a></h4>
+            <h4>Download my full resume <a href="https://www.linkedin.com/in/skytexier/" target="_blank" rel="noopener noreferrer">here!</a></h4>
         </Row>
         </Container>
         </section>
