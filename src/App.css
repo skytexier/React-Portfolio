@@ -298,6 +298,37 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
 }
 
+/* Resume */
+
+.resume-box{
+  border-radius: 64px;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(var(--rotate), rgb(96, 144, 248) -5.91%, rgb(255, 97, 221) 111.58%);
+  animation: spin 15s ease infinite;
+}
+
+.resume span {
+  font-size: 20px;
+
+}
+
+.resume h4 {
+  font-size: 25px;
+  color: #121212;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.resume h5 {
+  font-size: 20px;
+  color: #ffbd06;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
 /* Footer */
 footer {
   font-size: 48px;
