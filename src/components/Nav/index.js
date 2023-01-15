@@ -1,7 +1,7 @@
 import {React, useState, useEffect } from "react";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-
+// Using state and useeffect for navbar scrolling / tracking which link is active
 const Navigation = () => {
     
     const [activeLink, setActiveLink] = useState('home');

@@ -1,6 +1,8 @@
 import  Col  from 'react-bootstrap/Col';
 import {FaGithub, FaLink } from  "react-icons/fa"
 
+// Creating project-cards that will fit into a container and row within the project-section, using react-bootstrap and react-icons
+
  const ProjectCard = ({ title, description, imgURL, URL, Github }) => {
     return (
         <Col size={12} sm={6} md={4}>

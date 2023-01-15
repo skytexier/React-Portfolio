@@ -8,6 +8,7 @@ import projectImg5 from "../../assets/jate.png";
 import projectImg6 from "../../assets/bazaar-buddies.png";
 import {FaGithub, FaLink } from  "react-icons/fa"
 
+// Importing project images and creating a project array for project data
 const Projects = () => {
     const projects = [
         {
@@ -50,7 +51,7 @@ const Projects = () => {
             Github: "https://github.com/skytexier/Bazaar-Buddies"
         },
     ];
-
+    // Creating a section/container for the project cards and mapping each project and their index with project cards
     return (
         <section className="project" id="projects">
             <Container>

@@ -11,11 +11,12 @@ import react1 from '../../assets/skillsSVG/react.svg';
 import sql from '../../assets/skillsSVG/sql.svg';
 import mongo from '../../assets/skillsSVG/mongo.png';
 
+//Importing SVG images/icons for skills and technologies, setting responsiveness for react-multi-carousel
 
  const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
+          // Breakpoints for the carousel.
           breakpoint: { max: 4000, min: 3000 },
           items: 10
         },

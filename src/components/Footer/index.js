@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
 
-  // Replace links with social media profiles
+  // Using react icons for links, mapping the icons array
   const icons = [
     {
       name: <FaGithub />,

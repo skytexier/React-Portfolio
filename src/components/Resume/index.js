@@ -1,5 +1,6 @@
 import {Row, Col, Container} from 'react-bootstrap'
 
+// Basic text-preview of my resume
 const Resume = () => {
     return (
         <section className='resume' id='resume'>

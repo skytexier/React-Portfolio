@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import headshot from "../../assets/headshot.jpeg"
 
+// Banner and rotating text ticker
+
 const Banner = () => {
     const [loopNumber, setLoopNumber] = useState(0);
     const [deleting, setDeleting] = useState(false);
