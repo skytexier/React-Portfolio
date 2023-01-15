@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.32abb938.css",
-    "main.js": "/React-Portfolio/static/js/main.de3a37b5.js",
-    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "/React-Portfolio/static/js/main.e528aca1.js",
+    "static/js/787.e29dc422.chunk.js": "/React-Portfolio/static/js/787.e29dc422.chunk.js",
     "static/media/bazaar-buddies.png": "/React-Portfolio/static/media/bazaar-buddies.ec9f7b1289565f33c267.png",
     "static/media/background.png": "/React-Portfolio/static/media/background.6c07cf20851fd1711e34.png",
     "static/media/headshot.jpeg": "/React-Portfolio/static/media/headshot.7ea17eea5aa9a1d5ad8c.jpeg",
@@ -25,11 +25,11 @@
     "static/media/css.svg": "/React-Portfolio/static/media/css.4f6ca65aab85a81215886ff6fa140fab.svg",
     "static/media/java.svg": "/React-Portfolio/static/media/java.3dada5a67a9c1f85200ab4a2aaf3f8e3.svg",
     "main.32abb938.css.map": "/React-Portfolio/static/css/main.32abb938.css.map",
-    "main.de3a37b5.js.map": "/React-Portfolio/static/js/main.de3a37b5.js.map",
-    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.e528aca1.js.map": "/React-Portfolio/static/js/main.e528aca1.js.map",
+    "787.e29dc422.chunk.js.map": "/React-Portfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32abb938.css",
-    "static/js/main.de3a37b5.js"
+    "static/js/main.e528aca1.js"
   ]
 }
