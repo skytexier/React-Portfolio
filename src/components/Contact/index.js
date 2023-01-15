@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {Row, Col, Container, Button, Form } from 'react-bootstrap'
 import { validateEmail } from '../../utils/helpers';
 
+//Using premade contact form from class repo
 function Contact() {
   const [formState, setFormState] = useState({
     name: '',
@@ -39,11 +40,12 @@ function Contact() {
       console.log('Handle Form', formState);
     }
   };
-
+  //Adding react-boostrap form styling
   return (
-    <section className='contact'>
+    <section className='contact' id="contact">
         <Container>
             <Row>
+              <h4>Contact me!</h4>
             <Form>
       <Form.Group id="contact-form" onSubmit={handleSubmit}>
           <Form.Label htmlFor="name">Name:</Form.Label>
