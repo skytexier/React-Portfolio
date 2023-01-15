@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.32abb938.css",
+    "main.js": "/React-Portfolio/static/js/main.de3a37b5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bazaar-buddies.png": "/React-Portfolio/static/media/bazaar-buddies.ec9f7b1289565f33c267.png",
+    "static/media/background.png": "/React-Portfolio/static/media/background.6c07cf20851fd1711e34.png",
+    "static/media/headshot.jpeg": "/React-Portfolio/static/media/headshot.7ea17eea5aa9a1d5ad8c.jpeg",
+    "static/media/safespace.JPG": "/React-Portfolio/static/media/safespace.e783b60c1d41dfb4717a.JPG",
+    "static/media/FFA.png": "/React-Portfolio/static/media/FFA.d064b7b0d074dfd41bdc.png",
+    "static/media/users.png": "/React-Portfolio/static/media/users.d9afdd3d6060fae244b5.png",
+    "static/media/workdb.png": "/React-Portfolio/static/media/workdb.dbdd548058b3a623b53c.png",
+    "static/media/jate.png": "/React-Portfolio/static/media/jate.107505f0bf4721775632.png",
+    "static/media/revicons.eot": "/React-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/jquery.svg": "/React-Portfolio/static/media/jquery.b6300a33a475a8c5c58c19ee669fc5bf.svg",
+    "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/react.svg": "/React-Portfolio/static/media/react.868f879e8b364ce13b7c7d22ee25fbd2.svg",
+    "static/media/sql.svg": "/React-Portfolio/static/media/sql.83c4508e0d8a80f4ff33c8b450dbfcd9.svg",
+    "static/media/node.svg": "/React-Portfolio/static/media/node.7fc10f44eafee2ceb8705fcaa77c970d.svg",
+    "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/apollo.svg": "/React-Portfolio/static/media/apollo.d86385f49565ebaaa7d8c6aaf49bf124.svg",
+    "static/media/html.svg": "/React-Portfolio/static/media/html.3f072f91897605e0ecb79d7f6cd3ff5a.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "static/media/css.svg": "/React-Portfolio/static/media/css.4f6ca65aab85a81215886ff6fa140fab.svg",
+    "static/media/java.svg": "/React-Portfolio/static/media/java.3dada5a67a9c1f85200ab4a2aaf3f8e3.svg",
+    "main.32abb938.css.map": "/React-Portfolio/static/css/main.32abb938.css.map",
+    "main.de3a37b5.js.map": "/React-Portfolio/static/js/main.de3a37b5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32abb938.css",
+    "static/js/main.de3a37b5.js"
+  ]
+}
